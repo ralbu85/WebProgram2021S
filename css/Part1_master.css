@@ -1,0 +1,26 @@
+/*
+This is a comment
+*/
+
+/*
+General Form is:
+
+Selected Tag {
+  property: value;
+}
+
+*/
+
+/*Colors can be names, or codes*/
+
+body{
+  background-color: tomato;
+}
+
+li{
+  color:teal;
+}
+
+p{
+  background-color:yellowgreen;
+}

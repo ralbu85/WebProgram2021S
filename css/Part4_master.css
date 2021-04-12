@@ -1,0 +1,17 @@
+.firstDiv {
+  color: blue;
+}
+
+.secondDiv {
+  background-color: gray;
+}
+
+p.myP {
+  color: green;
+  font-style: italic;
+}
+
+#singledout {
+  color: red;
+  text-decoration: underline;
+}

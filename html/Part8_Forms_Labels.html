@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Forms - Labels and Validations</title>
+</head>
+
+<body>
+
+  <h1>Log In</h1>
+  <h2>Please Input your Password and Email</h2>
+
+  <!-- Upon submitting the form will perform the action (a redirect) -->
+  <form action="http://www.google.com" method="get">
+
+    <!--label 태그: 폼에대한 정보(레이블)를 표시 -->
+    <label for="email">EMAIL:</label> <!--for 해당 레이블이 어떤 폼 앨리먼트에 속하는지 표기-->
+    <input type="email" id="email" name="useremail" value="Email Here">
+    <label for="pass">PASSWORD:</label> <!--for 해당 레이블이 어떤 폼 앨리먼트에 속하는지 표기-->
+    <input type="password" id="pass" name="password" placeholder="Password">
+
+    <label for="userinput">TEXT:</label> <!--for 해당 레이블이 어떤 폼 앨리먼트에 속하는지 표기-->
+    <input type="text" id="userinput" name="input" placeholder="Enter Text Here" required>
+    <input type="submit">
+
+  </form>
+
+
+</body>
+
+</html>

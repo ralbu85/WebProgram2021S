@@ -1,0 +1,24 @@
+.firstDiv {
+    color: blue;
+    border-style: solid;
+    border-width: 5px;
+    border-color: tomato;
+    margin: 15px;
+    padding: 15px;
+}
+
+.secondDiv {
+    background-color: gray;
+    margin: 15px;
+    padding: 15px;
+}
+
+p.myP {
+    color: green;
+    font-style: italic;
+}
+
+#singledout {
+    color: red;
+    text-decoration: underline;
+}
